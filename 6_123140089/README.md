@@ -83,7 +83,7 @@ https://youtu.be/URF47lp-NUU
 
 ## ⚙️ Cara Menjalankan
 
-1. Clone repository: 
+1. Clone repository: https://github.com/beningapniprameswari/123140089_TugasPraktikumPAM/tree/93e71a7bad64cb78893d323638ed1136a8e0ec68/6_123140089 
 2. Buka project di Android Studio
 3. Sync Gradle
 4. Jalankan aplikasi
