@@ -1,4 +1,7 @@
-# 📱 Notes App (Week 7 - Local Data Storage)
+# Tugas Praktikum 7 PAM – Notes App
+## **Nama:** Bening Apni Prameswari  
+## **NIM:** 123140089  
+## **Kelas:** Pengembangan Aplikasi Mobile RB
 
 Aplikasi **Notes App** adalah aplikasi mobile berbasis Android yang digunakan untuk menyimpan dan mengelola catatan (notes) secara lokal menggunakan database dan preferences.
 
