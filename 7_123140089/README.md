@@ -103,8 +103,8 @@ SELECT * FROM Note WHERE title LIKE ? OR content LIKE ?;
 ---
 
 ## 🔄 UI State
- Aplikasi menangani beberapa kondisi:
 
+Aplikasi menangani beberapa kondisi:
 Loading → saat data dimuat
 Content → saat data tersedia
 Empty → saat tidak ada data
@@ -113,23 +113,34 @@ Error → jika terjadi kesalahan
 ---
 
 ## 📸 Screenshot
-### 📝 Notes List
 
-### ➕ Add/Edit Note
+### 📝 Notes List
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dfd66aa6-e4d1-4524-8488-b92e0bdcc482" />
+
+### ➕ Add Note
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/12a8746d-a7ee-4357-b4ec-09bdf7dd908f" />
+
+### Delete Note
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/21115d8f-3770-4758-884d-ed891247a6e8" />
+
+### ✂️ Edit Note
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/449a72ab-a0cb-49f9-ae40-0a4ed0352251" />
 
 ### 🔍 Search
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7896c9d2-6775-486d-a3cc-5660194d5902" />
+
+### 🪄 Theme
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/fad113e0-694d-4a00-9ac1-5b04f63fb571" />
 
 ---
 
 ## 🎥 Demo Video
-
-https://link-video-demo.com
+https://youtu.be/tqY5vockfm0
 
 ---
 
 ## ⚙️ Cara Menjalankan
-1. Clone repository:
-2. git clone https://github.com/username/notes-app.git
+1. Clone repository: git clone https://github.com/beningapniprameswari/123140089_TugasPraktikumPAM/tree/534bf9ce7b4bfef1bb470b1a25640536a0c7533d/7_123140089
 3. Buka di Android Studio
 4. Sync Gradle
 5. Jalankan aplikasi di emulator atau device
