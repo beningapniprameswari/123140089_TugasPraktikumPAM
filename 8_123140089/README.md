@@ -6,7 +6,7 @@
 ---
 
 ## 📌 Deskripsi Tugas
-Pada tugas ini dilakukan pengembangan aplikasi **Notes App** dengan menambahkan fitur platform-specific menggunakan pendekatan **Dependency Injection (Koin)** serta implementasi fitur device dan network.
+Pada tugas ini dilakukan pengembangan aplikasi Notes App dengan menambahkan fitur platform-specific menggunakan pendekatan Dependency Injection (Koin) serta implementasi fitur device dan network.
 
 ---
 
@@ -66,13 +66,13 @@ Aplikasi menggunakan pendekatan modular:
 ---
 
 ## 🎥 Video Demo
-
+https://youtu.be/E1sNzV9xUYw 
 
 ---
 
 ## 🚀 Cara Menjalankan Project
 
-1. Clone repository: git clone https://github.com/username/repository.git
+1. Clone repository: git clone https://github.com/beningapniprameswari/123140089_TugasPraktikumPAM/tree/7536c33c1173cbd185114c01f84fef2cdd892fae/8_123140089
 2. Buka project di Android Studio
 3. Sync Gradle
 4. Jalankan aplikasi di emulator / device
