@@ -44,3 +44,7 @@ git clone https://github.com/username/nama-repo.git
 ### 4. Setup Environment Variable
 
 ### 5. Jalankan Aplikasi
+
+### Fitur AI
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a288d7b4-ce3e-42da-a8e6-1a90ac2ecaac" />
+
