@@ -2,6 +2,8 @@
 ## Bening Apni Prameswari
 ## 123140089
 ## Pengembangan Aplikasi Mobile RB
+
+---
 ## 📌 Deskripsi
 Proyek ini merupakan implementasi integrasi Artificial Intelligence (AI) ke dalam aplikasi untuk meningkatkan fungsionalitas dan pengalaman pengguna.  
 Fitur AI yang diterapkan berfokus pada interaksi cerdas antara sistem dan pengguna.
@@ -45,6 +47,8 @@ git clone https://github.com/username/nama-repo.git
 
 ### 5. Jalankan Aplikasi
 
-### Fitur AI
+---
+
+## 🪄 Fitur AI
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a288d7b4-ce3e-42da-a8e6-1a90ac2ecaac" />
 
