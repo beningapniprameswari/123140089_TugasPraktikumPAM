@@ -37,7 +37,7 @@ Fitur utama dalam proyek ini adalah chatbot berbasis AI yang mampu:
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/username/nama-repo.git
+git clone https://github.com/beningapniprameswari/123140089_TugasPraktikumPAM/tree/de4cfac089459e3a0ffddf417d07b980d18d9d8f/9_123140089
 ```
 ### 2. Masuk ke Folder Project
 
