@@ -1,8 +1,11 @@
-# Tugas PAM 3 - Notes Application
+# Tugas PAM 10 - Testing dan Dependency Injection
+## Bening Apni Prameswari
+## 123140089
+## Pengembangan Aplikasi Mobile RB
 
 Aplikasi Catatan (Notes) sederhana yang dibangun menggunakan Jetpack Compose dengan arsitektur MVVM, SQLDelight untuk penyimpanan lokal, dan Koin untuk Dependency Injection.
 
-## Fitur Utama
+## 🕹️ Fitur Utama
 - **Manajemen Catatan**: Tambah, Edit, dan Hapus catatan.
 - **Pencarian**: Mencari catatan berdasarkan judul atau isi.
 - **Favorit**: Menandai catatan sebagai favorit.
@@ -12,7 +15,7 @@ Aplikasi Catatan (Notes) sederhana yang dibangun menggunakan Jetpack Compose den
 - **Informasi Perangkat**: Menampilkan informasi brand, model, versi Android, serta level baterai secara real-time.
 - **Mode Offline**: Indikator koneksi internet di bagian atas layar.
 
-## Tech Stack
+## ⚙️ Tech Stack
 - **UI**: Jetpack Compose
 - **Navigation**: Compose Navigation
 - **Architecture**: MVVM (ViewModel, StateFlow)
@@ -21,8 +24,15 @@ Aplikasi Catatan (Notes) sederhana yang dibangun menggunakan Jetpack Compose den
 - **Local Settings**: DataStore Preferences
 - **Platform Integration**: BatteryManager, ConnectivityManager, Build Info.
 
-## Testing
-Proyek ini mencakup pengujian komprehensif dengan total **24 test cases passed**:
+## 🖼️ Media
+### Screenshots
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/9ad83b95-0db7-45ab-8d94-1b8e73ca4fc4" />
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/c47b4860-dd10-45d3-8099-efd5d962acb8" />
+
+### Video Demo: https://youtu.be/1scuReq0emI
+
+## ▶️ Testing
+Proyek ini mencakup pengujian komprehensif dengan total **18 unit test cases passed**:
 
 ### 1. Unit Test: NoteRepository (6 Tests)
 Menguji interaksi database (CRUD) menggunakan driver SQLite in-memory.
@@ -33,34 +43,37 @@ Menguji interaksi database (CRUD) menggunakan driver SQLite in-memory.
 - `toggleFavorite changes favorite status`
 - `searchNotes returns matching notes`
 
-### 2. Unit Test: NotesViewModel & ProfileViewModel (14 Tests)
-Menguji logika bisnis dan State management menggunakan **MockK**.
-- Initial state verification.
-- Search functionality.
-- Business logic for adding/deleting notes.
-- Profile update logic.
+### 2. Unit Test: NotesViewModel (6 Tests)
+- `initial state displays device and battery info`
+- `onSearchQueryChange updates state`
+- `deleteNote calls repository`
+- `uiState emits updated notes when repository changes` (Turbine Flow Test)
+- `uiState reflects network status change` (Turbine Flow Test)
+- `toggleDarkMode calls settingsManager`
 
-### 3. Flow Test: Turbine (2 Tests)
-Menguji aliran data asinkron (Flow/StateFlow).
-- Memastikan UI State memancarkan data catatan terbaru saat repository berubah.
-- Memastikan UI State bereaksi terhadap perubahan status jaringan (Online/Offline).
+### 3. Unit Test: ProfileViewModel (5 Tests)
+- `initial state displays device and battery info`
+- `onSearchQueryChange updates state`
+- `addNote calls repository`
+- `deleteNote calls repository`
+- `uiState emits updated notes when repository changes`
 
-### 4. UI Test: NotesScreen (4 Tests)
-Menguji komponen UI dan interaksi pengguna menggunakan **Compose Test Rule**.
-- Menampilkan pesan saat data kosong.
-- Menampilkan daftar catatan saat ada data.
-- Memastikan tombol FAB (Tambah Catatan) dapat diklik.
+### 4. Others (1 Test)
+- `ExampleUnitTest`: `addition_isCorrect`
+
+### 5. Instrumented UI Test: NotesScreen (3 Tests)
+- `notesScreen_emptyState_showsInfoMessage`
+- `notesScreen_withData_showsNotesList`
+- `notesScreen_fabClick_isPossible`
 
 ## Cara Menjalankan Test
-1. **Local Unit Tests** (Repository & ViewModel):
+1. **Local Unit Tests**:
    ```bash
    ./gradlew test
    ```
-2. **Android Instrumented Tests** (UI Test):
+2. **Android Instrumented Tests**:
    Pastikan emulator atau perangkat fisik terhubung, lalu jalankan:
    ```bash
    ./gradlew connectedAndroidTest
    ```
-
 ---
-**Author**: 8_123140089
